@@ -6,12 +6,25 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"D:/SCHOOL/407/CMP407_Submission/Content/StarterContent/Architecture/Floor_400x400.uasset",
-				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_SetDestination_Touch.uasset",
-				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_SetDestination_Click.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_Weapon_Fire.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_Movement.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/IMC_Default.uasset",
-				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BP_TopDownController.uasset"
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BP_TopDownController.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/footsteps_concrete_1.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/footsteps_concrete_2.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/footsteps_concrete_3.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/footsteps_concrete_4.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/footsteps_concrete_5.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/footsteps_concrete_6.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Walking/random_footsteps.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Mannequins/Animations/Manny/MM_Run_Fwd.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Mannequins/Animations/ABP_Manny.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Mannequins/Animations/Manny/BS_MM_WalkRun.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Enemy/BP_Enemy.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/__ExternalActors__/TopDown/Maps/TopDownMap/1/GF/YSPWSUQ832DDEBIFC1X2LF.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_SetDestination_Touch.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_SetDestination_Click.uasset"
 			]
 		}
 	]
