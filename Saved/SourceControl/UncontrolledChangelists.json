@@ -23,6 +23,17 @@
 				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Mannequins/Animations/Manny/MM_Walk_Fwd.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/Characters/Enemy/BP_Enemy.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/__ExternalActors__/TopDown/Maps/TopDownMap/1/GF/YSPWSUQ832DDEBIFC1X2LF.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BP_Character.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BPI_Character.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BP_TopDownCharacter.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Materials/M_Bullet.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BP_Bullet.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/SFX/SFX_Laser_Blast_2.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/SFX/SFX_Laser_Blast_1.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/SFX/SFX_Laser_Blast_Master.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/SFX/SFX_Laser_Blast_3.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/Audio/Attenuation.uasset",
+				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Blueprints/BPW_HUD.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_SetDestination_Touch.uasset",
 				"D:/SCHOOL/407/CMP407_Submission/Content/TopDown/Input/Actions/IA_SetDestination_Click.uasset"
 			]
