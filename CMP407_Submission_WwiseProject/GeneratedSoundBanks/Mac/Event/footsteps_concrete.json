@@ -1,0 +1,108 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "82718740",
+    "Type": "Event",
+    "GUID": "{9107E8B0-3199-45EC-8DBB-7C41E74CBC67}",
+    "Language": "SFX",
+    "Hash": "{29049C8A-7CF1-0EDF-6156-2A1FFB6252A7}",
+    "ObjectPath": "footsteps_concrete",
+    "ShortName": "footsteps_concrete",
+    "Path": "Event/footsteps_concrete.bnk",
+    "Media": [
+     {
+      "Id": "60556560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_3.wav",
+      "Path": "Media/60556560.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_3_818F3B66.wem"
+     },
+     {
+      "Id": "192720236",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_6.wav",
+      "Path": "Media/192720236.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_6_818F3B66.wem"
+     },
+     {
+      "Id": "367120724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_4.wav",
+      "Path": "Media/367120724.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_4_818F3B66.wem"
+     },
+     {
+      "Id": "477288511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_1.wav",
+      "Path": "Media/477288511.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_1_818F3B66.wem"
+     },
+     {
+      "Id": "884626378",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_5.wav",
+      "Path": "Media/884626378.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_5_818F3B66.wem"
+     },
+     {
+      "Id": "903584422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_2.wav",
+      "Path": "Media/903584422.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_2_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "82718740",
+      "Name": "footsteps_concrete",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_concrete",
+      "GUID": "{9107E8B0-3199-45EC-8DBB-7C41E74CBC67}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37959182",
+      "DurationMax": "0.5439909",
+      "MediaRefs": [
+       {
+        "Id": "60556560"
+       },
+       {
+        "Id": "192720236"
+       },
+       {
+        "Id": "367120724"
+       },
+       {
+        "Id": "477288511"
+       },
+       {
+        "Id": "884626378"
+       },
+       {
+        "Id": "903584422"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{34609E05-6F28-88C1-681A-8E780573AD94}"
+ }
+}

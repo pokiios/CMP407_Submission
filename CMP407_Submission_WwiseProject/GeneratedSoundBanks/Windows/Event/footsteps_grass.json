@@ -1,0 +1,132 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "7365553",
+    "Type": "Event",
+    "GUID": "{43C9D36C-FBE0-4770-A83F-FBBA0C04CAF9}",
+    "Language": "SFX",
+    "Hash": "{C65FC3F9-BF74-FD4A-5C07-11EDCC4557C4}",
+    "ObjectPath": "footsteps_grass",
+    "ShortName": "footsteps_grass",
+    "Path": "Event/footsteps_grass.bnk",
+    "Media": [
+     {
+      "Id": "9168500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_05.wav",
+      "Path": "Media/9168500.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_05_818F3B66.wem"
+     },
+     {
+      "Id": "117549279",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_04.wav",
+      "Path": "Media/117549279.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_04_818F3B66.wem"
+     },
+     {
+      "Id": "125385575",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_02.wav",
+      "Path": "Media/125385575.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_02_818F3B66.wem"
+     },
+     {
+      "Id": "603428948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_06.wav",
+      "Path": "Media/603428948.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_06_818F3B66.wem"
+     },
+     {
+      "Id": "662391716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_07.wav",
+      "Path": "Media/662391716.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_07_818F3B66.wem"
+     },
+     {
+      "Id": "818161504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_03.wav",
+      "Path": "Media/818161504.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_03_818F3B66.wem"
+     },
+     {
+      "Id": "962042684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_01.wav",
+      "Path": "Media/962042684.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_01_818F3B66.wem"
+     },
+     {
+      "Id": "1049125180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_08.wav",
+      "Path": "Media/1049125180.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_08_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "7365553",
+      "Name": "footsteps_grass",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_grass",
+      "GUID": "{43C9D36C-FBE0-4770-A83F-FBBA0C04CAF9}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2780272",
+      "DurationMax": "0.38072562",
+      "MediaRefs": [
+       {
+        "Id": "9168500"
+       },
+       {
+        "Id": "117549279"
+       },
+       {
+        "Id": "125385575"
+       },
+       {
+        "Id": "603428948"
+       },
+       {
+        "Id": "662391716"
+       },
+       {
+        "Id": "818161504"
+       },
+       {
+        "Id": "962042684"
+       },
+       {
+        "Id": "1049125180"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{948FDB1D-6E9A-1577-003E-581656A1A171}"
+ }
+}

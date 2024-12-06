@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="7365553" Type="Event" GUID="{43C9D36C-FBE0-4770-A83F-FBBA0C04CAF9}" Language="SFX" Hash="{C65FC3F9-BF74-FD4A-5C07-11EDCC4557C4}">
+			<ObjectPath>footsteps_grass</ObjectPath>
+			<ShortName>footsteps_grass</ShortName>
+			<Path>Event/footsteps_grass.bnk</Path>
+			<Media>
+				<File Id="9168500" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_05.wav</ShortName>
+					<Path>Media/9168500.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="117549279" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_04.wav</ShortName>
+					<Path>Media/117549279.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="125385575" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_02.wav</ShortName>
+					<Path>Media/125385575.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="603428948" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_06.wav</ShortName>
+					<Path>Media/603428948.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_06_818F3B66.wem</CachePath>
+				</File>
+				<File Id="662391716" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_07.wav</ShortName>
+					<Path>Media/662391716.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="818161504" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_03.wav</ShortName>
+					<Path>Media/818161504.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="962042684" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_01.wav</ShortName>
+					<Path>Media/962042684.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1049125180" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Grass_08.wav</ShortName>
+					<Path>Media/1049125180.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Grass_08_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="7365553" Name="footsteps_grass" ObjectPath="\Events\Default Work Unit\footsteps_grass" GUID="{43C9D36C-FBE0-4770-A83F-FBBA0C04CAF9}" DurationType="OneShot" DurationMin="0.2780272" DurationMax="0.38072562">
+					<MediaRefs>
+						<MediaRef Id="9168500"/>
+						<MediaRef Id="117549279"/>
+						<MediaRef Id="125385575"/>
+						<MediaRef Id="603428948"/>
+						<MediaRef Id="662391716"/>
+						<MediaRef Id="818161504"/>
+						<MediaRef Id="962042684"/>
+						<MediaRef Id="1049125180"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BB88929D-F6C7-EDD8-B62F-CEAC2D6444F1}</FileHash>
+</SoundBanksInfo>

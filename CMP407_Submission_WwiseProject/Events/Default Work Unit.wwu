@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CD7B232A-46FA-4396-B6A9-89FEADED5721}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{CD7B232A-46FA-4396-B6A9-89FEADED5721}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{CD7B232A-46FA-4396-B6A9-89FEADED5721}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambience" ID="{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}">
+					<ChildrenList>
+						<Action Name="" ID="{767C56AD-C075-4733-9A87-A5727FFEBFB1}" ShortID="1024244937">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambience_wind" ID="{DE7FEE6C-02B2-4FB3-995D-8FF7876752AB}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_Switch_Concrete" ID="{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}"/>
+				<Event Name="Footsteps" ID="{22E037EB-47E8-4376-8B05-BC361463D4C4}">
+					<ChildrenList>
+						<Action Name="" ID="{06BA9F9D-8E08-4348-846C-D960210FD606}" ShortID="89385278">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FootstepsPlayer" ID="{CED5A1B8-5A77-4480-AFA1-C6A59EAD288A}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

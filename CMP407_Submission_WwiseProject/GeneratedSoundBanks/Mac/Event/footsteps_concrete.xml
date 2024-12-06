@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="82718740" Type="Event" GUID="{9107E8B0-3199-45EC-8DBB-7C41E74CBC67}" Language="SFX" Hash="{29049C8A-7CF1-0EDF-6156-2A1FFB6252A7}">
+			<ObjectPath>footsteps_concrete</ObjectPath>
+			<ShortName>footsteps_concrete</ShortName>
+			<Path>Event/footsteps_concrete.bnk</Path>
+			<Media>
+				<File Id="60556560" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\footsteps_concrete_3.wav</ShortName>
+					<Path>Media/60556560.wem</Path>
+					<CachePath>SFX/Audio/Walking/footsteps_concrete_3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="192720236" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\footsteps_concrete_6.wav</ShortName>
+					<Path>Media/192720236.wem</Path>
+					<CachePath>SFX/Audio/Walking/footsteps_concrete_6_818F3B66.wem</CachePath>
+				</File>
+				<File Id="367120724" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\footsteps_concrete_4.wav</ShortName>
+					<Path>Media/367120724.wem</Path>
+					<CachePath>SFX/Audio/Walking/footsteps_concrete_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="477288511" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\footsteps_concrete_1.wav</ShortName>
+					<Path>Media/477288511.wem</Path>
+					<CachePath>SFX/Audio/Walking/footsteps_concrete_1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="884626378" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\footsteps_concrete_5.wav</ShortName>
+					<Path>Media/884626378.wem</Path>
+					<CachePath>SFX/Audio/Walking/footsteps_concrete_5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="903584422" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\footsteps_concrete_2.wav</ShortName>
+					<Path>Media/903584422.wem</Path>
+					<CachePath>SFX/Audio/Walking/footsteps_concrete_2_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="82718740" Name="footsteps_concrete" ObjectPath="\Events\Default Work Unit\footsteps_concrete" GUID="{9107E8B0-3199-45EC-8DBB-7C41E74CBC67}" DurationType="OneShot" DurationMin="0.37959182" DurationMax="0.5439909">
+					<MediaRefs>
+						<MediaRef Id="60556560"/>
+						<MediaRef Id="192720236"/>
+						<MediaRef Id="367120724"/>
+						<MediaRef Id="477288511"/>
+						<MediaRef Id="884626378"/>
+						<MediaRef Id="903584422"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{677275BD-B686-B7E0-5EF8-E3F4532598FA}</FileHash>
+</SoundBanksInfo>

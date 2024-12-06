@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="444235487" Type="Event" GUID="{7B220D49-C9E2-4D22-8785-C77B070FCB48}" Language="SFX" Hash="{63013B8C-BF11-9853-2E18-7507E8C47F5C}">
+			<ObjectPath>footsteps_sand</ObjectPath>
+			<ShortName>footsteps_sand</ShortName>
+			<Path>Event/footsteps_sand.bnk</Path>
+			<Media>
+				<File Id="304597898" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_05.wav</ShortName>
+					<Path>Media/304597898.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="324753255" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_01.wav</ShortName>
+					<Path>Media/324753255.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_01_818F3B66.wem</CachePath>
+				</File>
+				<File Id="440693136" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_07.wav</ShortName>
+					<Path>Media/440693136.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_07_818F3B66.wem</CachePath>
+				</File>
+				<File Id="645087973" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_04.wav</ShortName>
+					<Path>Media/645087973.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_04_818F3B66.wem</CachePath>
+				</File>
+				<File Id="711105507" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_02.wav</ShortName>
+					<Path>Media/711105507.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_02_818F3B66.wem</CachePath>
+				</File>
+				<File Id="895041412" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_03.wav</ShortName>
+					<Path>Media/895041412.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="950485672" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\Walking\SFX_Footsteps_Sand_06.wav</ShortName>
+					<Path>Media/950485672.wem</Path>
+					<CachePath>SFX/Audio/Walking/SFX_Footsteps_Sand_06_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="444235487" Name="footsteps_sand" ObjectPath="\Events\Default Work Unit\footsteps_sand" GUID="{7B220D49-C9E2-4D22-8785-C77B070FCB48}" DurationType="OneShot" DurationMin="0.2634694" DurationMax="0.36911565">
+					<MediaRefs>
+						<MediaRef Id="304597898"/>
+						<MediaRef Id="324753255"/>
+						<MediaRef Id="440693136"/>
+						<MediaRef Id="645087973"/>
+						<MediaRef Id="711105507"/>
+						<MediaRef Id="895041412"/>
+						<MediaRef Id="950485672"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{CA49073E-166B-EAD8-BF30-83B5A9E42B8A}</FileHash>
+</SoundBanksInfo>
