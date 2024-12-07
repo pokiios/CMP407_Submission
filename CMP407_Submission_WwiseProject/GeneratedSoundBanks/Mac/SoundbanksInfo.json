@@ -14,224 +14,6 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
-    "Id": "7365553",
-    "Type": "Event",
-    "GUID": "{43C9D36C-FBE0-4770-A83F-FBBA0C04CAF9}",
-    "Language": "SFX",
-    "Hash": "{C65FC3F9-BF74-FD4A-5C07-11EDCC4557C4}",
-    "ObjectPath": "footsteps_grass",
-    "ShortName": "footsteps_grass",
-    "Path": "Event/footsteps_grass.bnk",
-    "Media": [
-     {
-      "Id": "9168500",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_05.wav",
-      "Path": "Media/9168500.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_05_818F3B66.wem"
-     },
-     {
-      "Id": "117549279",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_04.wav",
-      "Path": "Media/117549279.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_04_818F3B66.wem"
-     },
-     {
-      "Id": "125385575",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_02.wav",
-      "Path": "Media/125385575.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_02_818F3B66.wem"
-     },
-     {
-      "Id": "603428948",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_06.wav",
-      "Path": "Media/603428948.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_06_818F3B66.wem"
-     },
-     {
-      "Id": "662391716",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_07.wav",
-      "Path": "Media/662391716.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_07_818F3B66.wem"
-     },
-     {
-      "Id": "818161504",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_03.wav",
-      "Path": "Media/818161504.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_03_818F3B66.wem"
-     },
-     {
-      "Id": "962042684",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_01.wav",
-      "Path": "Media/962042684.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_01_818F3B66.wem"
-     },
-     {
-      "Id": "1049125180",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_08.wav",
-      "Path": "Media/1049125180.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_08_818F3B66.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "7365553",
-      "Name": "footsteps_grass",
-      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_grass",
-      "GUID": "{43C9D36C-FBE0-4770-A83F-FBBA0C04CAF9}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.2780272",
-      "DurationMax": "0.38072562",
-      "MediaRefs": [
-       {
-        "Id": "9168500"
-       },
-       {
-        "Id": "117549279"
-       },
-       {
-        "Id": "125385575"
-       },
-       {
-        "Id": "603428948"
-       },
-       {
-        "Id": "662391716"
-       },
-       {
-        "Id": "818161504"
-       },
-       {
-        "Id": "962042684"
-       },
-       {
-        "Id": "1049125180"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "Id": "82718740",
-    "Type": "Event",
-    "GUID": "{9107E8B0-3199-45EC-8DBB-7C41E74CBC67}",
-    "Language": "SFX",
-    "Hash": "{29049C8A-7CF1-0EDF-6156-2A1FFB6252A7}",
-    "ObjectPath": "footsteps_concrete",
-    "ShortName": "footsteps_concrete",
-    "Path": "Event/footsteps_concrete.bnk",
-    "Media": [
-     {
-      "Id": "60556560",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\footsteps_concrete_3.wav",
-      "Path": "Media/60556560.wem",
-      "CachePath": "SFX/Audio/Walking/footsteps_concrete_3_818F3B66.wem"
-     },
-     {
-      "Id": "192720236",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\footsteps_concrete_6.wav",
-      "Path": "Media/192720236.wem",
-      "CachePath": "SFX/Audio/Walking/footsteps_concrete_6_818F3B66.wem"
-     },
-     {
-      "Id": "367120724",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\footsteps_concrete_4.wav",
-      "Path": "Media/367120724.wem",
-      "CachePath": "SFX/Audio/Walking/footsteps_concrete_4_818F3B66.wem"
-     },
-     {
-      "Id": "477288511",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\footsteps_concrete_1.wav",
-      "Path": "Media/477288511.wem",
-      "CachePath": "SFX/Audio/Walking/footsteps_concrete_1_818F3B66.wem"
-     },
-     {
-      "Id": "884626378",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\footsteps_concrete_5.wav",
-      "Path": "Media/884626378.wem",
-      "CachePath": "SFX/Audio/Walking/footsteps_concrete_5_818F3B66.wem"
-     },
-     {
-      "Id": "903584422",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\footsteps_concrete_2.wav",
-      "Path": "Media/903584422.wem",
-      "CachePath": "SFX/Audio/Walking/footsteps_concrete_2_818F3B66.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "82718740",
-      "Name": "footsteps_concrete",
-      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_concrete",
-      "GUID": "{9107E8B0-3199-45EC-8DBB-7C41E74CBC67}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.37959182",
-      "DurationMax": "0.5439909",
-      "MediaRefs": [
-       {
-        "Id": "60556560"
-       },
-       {
-        "Id": "192720236"
-       },
-       {
-        "Id": "367120724"
-       },
-       {
-        "Id": "477288511"
-       },
-       {
-        "Id": "884626378"
-       },
-       {
-        "Id": "903584422"
-       }
-      ]
-     }
-    ]
-   },
-   {
     "Id": "85412153",
     "Type": "Event",
     "GUID": "{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}",
@@ -267,109 +49,37 @@
     ]
    },
    {
-    "Id": "444235487",
+    "Id": "377569945",
     "Type": "Event",
-    "GUID": "{7B220D49-C9E2-4D22-8785-C77B070FCB48}",
+    "GUID": "{2247547C-B405-4A02-9263-5152FF0E8015}",
     "Language": "SFX",
-    "Hash": "{63013B8C-BF11-9853-2E18-7507E8C47F5C}",
-    "ObjectPath": "footsteps_sand",
-    "ShortName": "footsteps_sand",
-    "Path": "Event/footsteps_sand.bnk",
+    "Hash": "{23B97D68-DD40-5B6B-F025-80CD9E225014}",
+    "ObjectPath": "play_blaster",
+    "ShortName": "play_blaster",
+    "Path": "Event/play_blaster.bnk",
     "Media": [
      {
-      "Id": "304597898",
+      "Id": "866406127",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_05.wav",
-      "Path": "Media/304597898.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_05_818F3B66.wem"
-     },
-     {
-      "Id": "324753255",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_01.wav",
-      "Path": "Media/324753255.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_01_818F3B66.wem"
-     },
-     {
-      "Id": "440693136",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_07.wav",
-      "Path": "Media/440693136.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_07_818F3B66.wem"
-     },
-     {
-      "Id": "645087973",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_04.wav",
-      "Path": "Media/645087973.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_04_818F3B66.wem"
-     },
-     {
-      "Id": "711105507",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_02.wav",
-      "Path": "Media/711105507.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_02_818F3B66.wem"
-     },
-     {
-      "Id": "895041412",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_03.wav",
-      "Path": "Media/895041412.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_03_818F3B66.wem"
-     },
-     {
-      "Id": "950485672",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_06.wav",
-      "Path": "Media/950485672.wem",
-      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_06_818F3B66.wem"
+      "ShortName": "Audio\\SFX\\blaster_real.wav",
+      "Path": "Media/866406127.wem",
+      "CachePath": "SFX/Audio/SFX/blaster_real_818F3B66.wem"
      }
     ],
     "Events": [
      {
-      "Id": "444235487",
-      "Name": "footsteps_sand",
-      "ObjectPath": "\\Events\\Default Work Unit\\footsteps_sand",
-      "GUID": "{7B220D49-C9E2-4D22-8785-C77B070FCB48}",
+      "Id": "377569945",
+      "Name": "play_blaster",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_blaster",
+      "GUID": "{2247547C-B405-4A02-9263-5152FF0E8015}",
       "DurationType": "OneShot",
-      "DurationMin": "0.2634694",
-      "DurationMax": "0.36911565",
+      "DurationMin": "0.21697116",
+      "DurationMax": "0.51604724",
       "MediaRefs": [
        {
-        "Id": "304597898"
-       },
-       {
-        "Id": "324753255"
-       },
-       {
-        "Id": "440693136"
-       },
-       {
-        "Id": "645087973"
-       },
-       {
-        "Id": "711105507"
-       },
-       {
-        "Id": "895041412"
-       },
-       {
-        "Id": "950485672"
+        "Id": "866406127"
        }
       ]
      }
@@ -380,11 +90,21 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{D326F752-7CA2-0A14-FDB1-63ECE89D0199}",
+    "Hash": "{1EFB3F60-9A80-7BD0-C726-07851214D00B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
      "AudioDevices": [
       {
        "Id": "2317455096",
@@ -411,9 +131,484 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
      }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "2393427999",
+      "Name": "BigRoom_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoom_Reverb",
+      "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      }
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
+      "GUID": "{CFFACC4B-B5E1-4FE1-8A45-488F870B73DC}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Sand",
+        "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Concrete",
+        "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Grass",
+        "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "2393427999",
+    "Type": "Bus",
+    "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
+    "Language": "SFX",
+    "Hash": "{C0B81A77-2FA4-9C22-D935-FF75E54749FB}",
+    "ObjectPath": "BigRoom_Reverb",
+    "ShortName": "BigRoom_Reverb",
+    "Path": "Bus/BigRoom_Reverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2393427999",
+      "Name": "BigRoom_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoom_Reverb",
+      "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "Id": "2955259529",
+    "Type": "Event",
+    "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
+    "Language": "SFX",
+    "Hash": "{6D0E7755-ED41-DD4B-041B-1E5CA703543D}",
+    "ObjectPath": "play_hurt",
+    "ShortName": "play_hurt",
+    "Path": "Event/play_hurt.bnk",
+    "Media": [
+     {
+      "Id": "591014924",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Hurt.wav",
+      "Path": "Media/591014924.wem",
+      "CachePath": "SFX/SFX_Hurt_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2955259529",
+      "Name": "play_hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_hurt",
+      "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30624634",
+      "DurationMax": "0.7283807",
+      "MediaRefs": [
+       {
+        "Id": "591014924"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3543386712",
+    "Type": "Event",
+    "GUID": "{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}",
+    "Language": "SFX",
+    "Hash": "{77109666-F92A-B898-65F8-427E3AD8DABB}",
+    "ObjectPath": "Set_Switch_Concrete",
+    "ShortName": "Set_Switch_Concrete",
+    "Path": "Event/Set_Switch_Concrete.bnk",
+    "Events": [
+     {
+      "Id": "3543386712",
+      "Name": "Set_Switch_Concrete",
+      "ObjectPath": "\\Events\\Default Work Unit\\Set_Switch_Concrete",
+      "GUID": "{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
+    "Id": "3854155799",
+    "Type": "Event",
+    "GUID": "{22E037EB-47E8-4376-8B05-BC361463D4C4}",
+    "Language": "SFX",
+    "Hash": "{45591CCA-7EA4-A21C-2CDF-578CDBC13F1F}",
+    "ObjectPath": "play_footsteps",
+    "ShortName": "play_footsteps",
+    "Path": "Event/play_footsteps.bnk",
+    "Media": [
+     {
+      "Id": "9168500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_05.wav",
+      "Path": "Media/9168500.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_05_818F3B66.wem"
+     },
+     {
+      "Id": "60556560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_3.wav",
+      "Path": "Media/60556560.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_3_818F3B66.wem"
+     },
+     {
+      "Id": "117549279",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_04.wav",
+      "Path": "Media/117549279.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_04_818F3B66.wem"
+     },
+     {
+      "Id": "125385575",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_02.wav",
+      "Path": "Media/125385575.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_02_818F3B66.wem"
+     },
+     {
+      "Id": "192720236",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_6.wav",
+      "Path": "Media/192720236.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_6_818F3B66.wem"
+     },
+     {
+      "Id": "304597898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_05.wav",
+      "Path": "Media/304597898.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_05_818F3B66.wem"
+     },
+     {
+      "Id": "324753255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_01.wav",
+      "Path": "Media/324753255.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_01_818F3B66.wem"
+     },
+     {
+      "Id": "367120724",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_4.wav",
+      "Path": "Media/367120724.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_4_818F3B66.wem"
+     },
+     {
+      "Id": "440693136",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_07.wav",
+      "Path": "Media/440693136.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_07_818F3B66.wem"
+     },
+     {
+      "Id": "477288511",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_1.wav",
+      "Path": "Media/477288511.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_1_818F3B66.wem"
+     },
+     {
+      "Id": "603428948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_06.wav",
+      "Path": "Media/603428948.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_06_818F3B66.wem"
+     },
+     {
+      "Id": "645087973",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_04.wav",
+      "Path": "Media/645087973.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_04_818F3B66.wem"
+     },
+     {
+      "Id": "662391716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_07.wav",
+      "Path": "Media/662391716.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_07_818F3B66.wem"
+     },
+     {
+      "Id": "711105507",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_02.wav",
+      "Path": "Media/711105507.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_02_818F3B66.wem"
+     },
+     {
+      "Id": "818161504",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_03.wav",
+      "Path": "Media/818161504.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_03_818F3B66.wem"
+     },
+     {
+      "Id": "884626378",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_5.wav",
+      "Path": "Media/884626378.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_5_818F3B66.wem"
+     },
+     {
+      "Id": "895041412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_03.wav",
+      "Path": "Media/895041412.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_03_818F3B66.wem"
+     },
+     {
+      "Id": "903584422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\footsteps_concrete_2.wav",
+      "Path": "Media/903584422.wem",
+      "CachePath": "SFX/Audio/Walking/footsteps_concrete_2_818F3B66.wem"
+     },
+     {
+      "Id": "950485672",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Sand_06.wav",
+      "Path": "Media/950485672.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Sand_06_818F3B66.wem"
+     },
+     {
+      "Id": "962042684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_01.wav",
+      "Path": "Media/962042684.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_01_818F3B66.wem"
+     },
+     {
+      "Id": "1049125180",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\Walking\\SFX_Footsteps_Grass_08.wav",
+      "Path": "Media/1049125180.wem",
+      "CachePath": "SFX/Audio/Walking/SFX_Footsteps_Grass_08_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "play_footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_footsteps",
+      "GUID": "{22E037EB-47E8-4376-8B05-BC361463D4C4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.19737904",
+      "DurationMax": "0.72614074",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "841620460",
+         "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "60556560"
+         },
+         {
+          "Id": "192720236"
+         },
+         {
+          "Id": "367120724"
+         },
+         {
+          "Id": "477288511"
+         },
+         {
+          "Id": "884626378"
+         },
+         {
+          "Id": "903584422"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "803837735",
+         "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "304597898"
+         },
+         {
+          "Id": "324753255"
+         },
+         {
+          "Id": "440693136"
+         },
+         {
+          "Id": "645087973"
+         },
+         {
+          "Id": "711105507"
+         },
+         {
+          "Id": "895041412"
+         },
+         {
+          "Id": "950485672"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4248645337",
+         "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "9168500"
+         },
+         {
+          "Id": "117549279"
+         },
+         {
+          "Id": "125385575"
+         },
+         {
+          "Id": "603428948"
+         },
+         {
+          "Id": "662391716"
+         },
+         {
+          "Id": "818161504"
+         },
+         {
+          "Id": "962042684"
+         },
+         {
+          "Id": "1049125180"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
+      "GUID": "{CFFACC4B-B5E1-4FE1-8A45-488F870B73DC}",
+      "Switches": [
+       {
+        "Id": "803837735",
+        "Name": "Sand",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Sand",
+        "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
+       },
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Concrete",
+        "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Grass",
+        "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{CB0A214B-4EE8-7FDC-4FC5-B70B948396EA}"
+  "FileHash": "{E2C5D1EF-698E-A7FC-175E-15BBDA7F7B7E}"
  }
 }

@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	444235487	footsteps_sand			\Default Work Unit\footsteps_sand	
-

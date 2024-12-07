@@ -15,12 +15,34 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Set_Switch_Concrete" ID="{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}"/>
-				<Event Name="Footsteps" ID="{22E037EB-47E8-4376-8B05-BC361463D4C4}">
+				<Event Name="play_footsteps" ID="{22E037EB-47E8-4376-8B05-BC361463D4C4}">
 					<ChildrenList>
 						<Action Name="" ID="{06BA9F9D-8E08-4348-846C-D960210FD606}" ShortID="89385278">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="FootstepsPlayer" ID="{CED5A1B8-5A77-4480-AFA1-C6A59EAD288A}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_blaster" ID="{2247547C-B405-4A02-9263-5152FF0E8015}">
+					<ChildrenList>
+						<Action Name="" ID="{F1138E47-C7C6-4F96-B45A-5533ED756229}" ShortID="444212600">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="blaster_real" ID="{91E9DC1E-3238-4E8B-8298-718E2B498F3A}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="play_hurt" ID="{BDC9D7AE-2155-4612-8D6F-6003B57116F3}">
+					<ChildrenList>
+						<Action Name="" ID="{A9D5883E-7931-49CF-9852-C56576C5EECB}" ShortID="690716236">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Hurt" ID="{A87BB6F3-934C-445A-940D-F5CF0D8072B3}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

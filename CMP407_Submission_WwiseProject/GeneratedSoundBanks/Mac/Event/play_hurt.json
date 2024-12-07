@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2955259529",
+    "Type": "Event",
+    "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
+    "Language": "SFX",
+    "Hash": "{6D0E7755-ED41-DD4B-041B-1E5CA703543D}",
+    "ObjectPath": "play_hurt",
+    "ShortName": "play_hurt",
+    "Path": "Event/play_hurt.bnk",
+    "Media": [
+     {
+      "Id": "591014924",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX_Hurt.wav",
+      "Path": "Media/591014924.wem",
+      "CachePath": "SFX/SFX_Hurt_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2955259529",
+      "Name": "play_hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\play_hurt",
+      "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30624634",
+      "DurationMax": "0.7283807",
+      "MediaRefs": [
+       {
+        "Id": "591014924"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{09506A11-3214-5878-F7DA-FEADE49DFD6B}"
+ }
+}

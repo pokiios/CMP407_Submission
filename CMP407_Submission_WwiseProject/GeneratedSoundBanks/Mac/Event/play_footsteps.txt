@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3854155799	play_footsteps			\Default Work Unit\play_footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	footsteps			\Default Work Unit\footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	footsteps			
+	841620460	Concrete	footsteps			
+	4248645337	Grass	footsteps			
+

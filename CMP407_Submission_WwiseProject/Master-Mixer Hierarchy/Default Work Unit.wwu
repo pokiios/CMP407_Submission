@@ -9,6 +9,25 @@
 							<ObjectRef Name="System" ID="{7748B0F3-31A2-4A21-9B8A-BACD9049EBDF}" WorkUnitID="{E067F18C-8271-4CC5-979C-1CBDF4673FE7}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="BigRoom_Reverb" ID="{A06710C1-8C07-405E-94D1-258A0C0B403A}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{804BCCED-EF1A-43FD-BF34-B26BFA25ADAF}" ShortID="936352408">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>
