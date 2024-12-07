@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
     "Language": "SFX",
-    "Hash": "{6D0E7755-ED41-DD4B-041B-1E5CA703543D}",
+    "Hash": "{DF2099BE-3773-9891-5B6B-4CB18276ED7E}",
     "ObjectPath": "play_hurt",
     "ShortName": "play_hurt",
     "Path": "Event/play_hurt.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{09506A11-3214-5878-F7DA-FEADE49DFD6B}"
+  "FileHash": "{E2837DE1-3827-DEF0-C9AE-04566B3EC7BB}"
  }
 }

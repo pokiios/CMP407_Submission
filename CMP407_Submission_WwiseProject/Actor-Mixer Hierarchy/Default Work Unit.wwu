@@ -9,6 +9,7 @@
 						<Sound Name="ambience_wind" ID="{DE7FEE6C-02B2-4FB3-995D-8FF7876752AB}" ShortID="110111881">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -32,6 +33,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="blaster-001" ID="{73127E9F-DAD4-43FA-A886-1E812334CD6B}" ShortID="304737616">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -54,6 +58,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="blaster-002" ID="{3045A6D9-DFB0-4C25-A251-3EBA333500ED}" ShortID="769832967">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -76,6 +83,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="blaster_real" ID="{658A407B-B7F0-448C-95F6-E282908CADC9}" ShortID="871697878">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -105,6 +115,9 @@
 							<ChildrenList>
 								<Folder Name="peaks" ID="{261EB921-BD1A-4406-AE57-74B6B8202723}" ShortID="697058056"/>
 								<Sound Name="blaster-001" ID="{69D85427-A040-456C-9ADA-5E1279D1702C}" ShortID="494560063">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -127,6 +140,9 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="blaster-002" ID="{47DF5827-DA08-4895-BCAE-1F4C8FC87D31}" ShortID="432348826">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -157,6 +173,16 @@
 									<ChildrenList>
 										<Folder Name="peaks" ID="{89978E07-294D-4E9E-9390-6B5C7F7914C1}" ShortID="110554366"/>
 										<Sound Name="SFX_Hurt" ID="{235BE81C-EAE8-4505-9256-8C55457CCBA8}" ShortID="150281967">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9A26F8FF-A202-4322-9E22-63B151F16B03}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -183,6 +209,9 @@
 								<Folder Name="Walking" ID="{A85A029E-0CC3-4AB3-B855-58CA8EC89BFE}" ShortID="831395311">
 									<ChildrenList>
 										<Sound Name="footsteps_concrete_1" ID="{E927D584-753D-4746-A605-21554DC25E14}" ShortID="446531394">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -205,6 +234,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="footsteps_concrete_2" ID="{1DCDF311-C19C-48E7-9E90-58731F11F81E}" ShortID="743753162">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -227,6 +259,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="footsteps_concrete_3" ID="{F0B6F6EF-079F-435F-AE9D-626A6E8C74F3}" ShortID="920798687">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -249,6 +284,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="footsteps_concrete_4" ID="{732DA5E0-23C5-42CC-84DA-22390E30B7F7}" ShortID="499701784">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -271,6 +309,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="footsteps_concrete_5" ID="{0B71B7B8-2FAF-45CB-9E3E-A26A1374BE51}" ShortID="222205453">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -293,6 +334,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="footsteps_concrete_6" ID="{66388949-2C93-4B02-B695-D2BCBCDF74B4}" ShortID="178425941">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -315,6 +359,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_01" ID="{8B42F836-8AD6-44BD-AA9B-287B95535E52}" ShortID="90952598">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -337,6 +384,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_02" ID="{BA4B969C-5F94-4993-A06A-7A031C745272}" ShortID="439336601">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -359,6 +409,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_03" ID="{43D58652-1ED2-4D02-A8FF-52A706C10628}" ShortID="229671733">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -381,6 +434,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_04" ID="{9D210AE0-04DC-4E01-9F51-EC75A6698DB3}" ShortID="728731992">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -425,6 +481,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_06" ID="{A6D0067A-7A64-4AB5-AB60-1591BA82B573}" ShortID="413862300">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -447,6 +506,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_07" ID="{712341DD-429E-4DF5-B838-248EE342E7BA}" ShortID="123204948">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -469,6 +531,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Grass_08" ID="{4911B407-6AFE-4826-BC23-D9E91722EE75}" ShortID="954670107">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -491,6 +556,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_01" ID="{14F4EC82-FD7B-4098-9927-0D7CA6B2885C}" ShortID="691521546">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -513,6 +581,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_02" ID="{594B90AC-9D88-4641-B0D4-B22D04149704}" ShortID="346145397">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -535,6 +606,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_03" ID="{6B7125BA-2E1E-4DC1-9C4F-5428955E36DF}" ShortID="781074249">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -557,6 +631,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_04" ID="{4697B93B-3FCA-45F1-A83B-F305876D8C10}" ShortID="688740513">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -579,6 +656,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_05" ID="{728784DB-82F4-47A6-BF94-E52AF3FA561C}" ShortID="145581794">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -601,6 +681,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_06" ID="{1752FF18-C648-485A-95D2-0C981FF6BAD4}" ShortID="389027311">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -623,6 +706,9 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="SFX_Footsteps_Sand_07" ID="{61E34DB5-FE29-4DC9-BFFD-CD6578339388}" ShortID="289438275">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -672,8 +758,8 @@
 									<Modifier Name="" ID="{5DB05619-0E21-4F1F-A229-4B0CD3E88698}">
 										<PropertyList>
 											<Property Name="Enabled" Type="bool" Value="True"/>
-											<Property Name="Max" Type="Real64" Value="10"/>
-											<Property Name="Min" Type="Real64" Value="-10"/>
+											<Property Name="Max" Type="Real64" Value="3"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
 										</PropertyList>
 									</Modifier>
 								</ModifierInfo>
@@ -1260,6 +1346,7 @@
 								</ModifierInfo>
 							</ModifierList>
 						</Property>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ModifierList>
 								<ModifierInfo>
@@ -1338,6 +1425,9 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Music" ID="{71BEDFB5-4389-4D03-A89D-6666E3D00511}" ShortID="492288832">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
@@ -1349,10 +1439,16 @@
 				</ActorMixer>
 				<ActorMixer Name="Ambience" ID="{AABBFA96-B924-48C5-8A8C-E35A9E842922}" ShortID="83456309">
 					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-2</Value>
+								<Value>-5</Value>
 							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7ACE25EE-43EB-48AF-A814-9F679BAE92B4}"/>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>

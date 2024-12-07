@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="2955259529" Type="Event" GUID="{BDC9D7AE-2155-4612-8D6F-6003B57116F3}" Language="SFX" Hash="{6D0E7755-ED41-DD4B-041B-1E5CA703543D}">
+		<SoundBank Id="2955259529" Type="Event" GUID="{BDC9D7AE-2155-4612-8D6F-6003B57116F3}" Language="SFX" Hash="{DF2099BE-3773-9891-5B6B-4CB18276ED7E}">
 			<ObjectPath>play_hurt</ObjectPath>
 			<ShortName>play_hurt</ShortName>
 			<Path>Event/play_hurt.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F8801E53-85F5-1628-5E37-A095308AB09E}</FileHash>
+	<FileHash>{65387747-BEC7-2F7A-E597-AF59D5249205}</FileHash>
 </SoundBanksInfo>

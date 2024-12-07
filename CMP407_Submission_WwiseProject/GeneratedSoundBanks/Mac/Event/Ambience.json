@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}",
     "Language": "SFX",
-    "Hash": "{720DFCC3-6619-A3A3-ADCC-7ED537047EF8}",
+    "Hash": "{186D3788-0F63-8974-742C-DB17DB459B22}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{9D98C6F4-E8DE-846C-2224-7E1055B08657}"
+  "FileHash": "{29B364F4-5139-BAC6-1C99-DE6A5A29CC65}"
  }
 }

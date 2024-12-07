@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{2247547C-B405-4A02-9263-5152FF0E8015}",
     "Language": "SFX",
-    "Hash": "{23B97D68-DD40-5B6B-F025-80CD9E225014}",
+    "Hash": "{B8B1D41B-FAF3-784B-D73D-6505D3E1CAED}",
     "ObjectPath": "play_blaster",
     "ShortName": "play_blaster",
     "Path": "Event/play_blaster.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{D83B96EE-7250-59FD-5B9B-2012CF3DCF0A}"
+  "FileHash": "{01DDB0F0-BD59-27FC-C1EE-F31D728888F1}"
  }
 }

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Type="Event" GUID="{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}" Language="SFX" Hash="{720DFCC3-6619-A3A3-ADCC-7ED537047EF8}">
+		<SoundBank Id="85412153" Type="Event" GUID="{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}" Language="SFX" Hash="{186D3788-0F63-8974-742C-DB17DB459B22}">
 			<ObjectPath>Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Event/Ambience.bnk</Path>
@@ -28,7 +28,7 @@
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="377569945" Type="Event" GUID="{2247547C-B405-4A02-9263-5152FF0E8015}" Language="SFX" Hash="{23B97D68-DD40-5B6B-F025-80CD9E225014}">
+		<SoundBank Id="377569945" Type="Event" GUID="{2247547C-B405-4A02-9263-5152FF0E8015}" Language="SFX" Hash="{B8B1D41B-FAF3-784B-D73D-6505D3E1CAED}">
 			<ObjectPath>play_blaster</ObjectPath>
 			<ShortName>play_blaster</ShortName>
 			<Path>Event/play_blaster.bnk</Path>
@@ -101,7 +101,7 @@
 				</AuxBus>
 			</AuxBusses>
 		</SoundBank>
-		<SoundBank Id="2955259529" Type="Event" GUID="{BDC9D7AE-2155-4612-8D6F-6003B57116F3}" Language="SFX" Hash="{6D0E7755-ED41-DD4B-041B-1E5CA703543D}">
+		<SoundBank Id="2955259529" Type="Event" GUID="{BDC9D7AE-2155-4612-8D6F-6003B57116F3}" Language="SFX" Hash="{DF2099BE-3773-9891-5B6B-4CB18276ED7E}">
 			<ObjectPath>play_hurt</ObjectPath>
 			<ShortName>play_hurt</ShortName>
 			<Path>Event/play_hurt.bnk</Path>
@@ -128,7 +128,7 @@
 				<Event Id="3543386712" Name="Set_Switch_Concrete" ObjectPath="\Events\Default Work Unit\Set_Switch_Concrete" GUID="{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="3854155799" Type="Event" GUID="{22E037EB-47E8-4376-8B05-BC361463D4C4}" Language="SFX" Hash="{45591CCA-7EA4-A21C-2CDF-578CDBC13F1F}">
+		<SoundBank Id="3854155799" Type="Event" GUID="{22E037EB-47E8-4376-8B05-BC361463D4C4}" Language="SFX" Hash="{8BE2A759-37A0-9B08-CFF0-6D70A84D536B}">
 			<ObjectPath>play_footsteps</ObjectPath>
 			<ShortName>play_footsteps</ShortName>
 			<Path>Event/play_footsteps.bnk</Path>
@@ -292,5 +292,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{2CAD5FE2-1C0D-B82F-993A-94B45173F697}</FileHash>
+	<FileHash>{E0297D5D-8C71-426C-62C1-24EFB339A376}</FileHash>
 </SoundBanksInfo>

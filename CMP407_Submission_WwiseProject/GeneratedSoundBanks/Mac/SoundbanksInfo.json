@@ -18,7 +18,7 @@
     "Type": "Event",
     "GUID": "{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}",
     "Language": "SFX",
-    "Hash": "{720DFCC3-6619-A3A3-ADCC-7ED537047EF8}",
+    "Hash": "{186D3788-0F63-8974-742C-DB17DB459B22}",
     "ObjectPath": "Ambience",
     "ShortName": "Ambience",
     "Path": "Event/Ambience.bnk",
@@ -53,7 +53,7 @@
     "Type": "Event",
     "GUID": "{2247547C-B405-4A02-9263-5152FF0E8015}",
     "Language": "SFX",
-    "Hash": "{23B97D68-DD40-5B6B-F025-80CD9E225014}",
+    "Hash": "{B8B1D41B-FAF3-784B-D73D-6505D3E1CAED}",
     "ObjectPath": "play_blaster",
     "ShortName": "play_blaster",
     "Path": "Event/play_blaster.bnk",
@@ -218,7 +218,7 @@
     "Type": "Event",
     "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
     "Language": "SFX",
-    "Hash": "{6D0E7755-ED41-DD4B-041B-1E5CA703543D}",
+    "Hash": "{DF2099BE-3773-9891-5B6B-4CB18276ED7E}",
     "ObjectPath": "play_hurt",
     "ShortName": "play_hurt",
     "Path": "Event/play_hurt.bnk",
@@ -277,7 +277,7 @@
     "Type": "Event",
     "GUID": "{22E037EB-47E8-4376-8B05-BC361463D4C4}",
     "Language": "SFX",
-    "Hash": "{45591CCA-7EA4-A21C-2CDF-578CDBC13F1F}",
+    "Hash": "{8BE2A759-37A0-9B08-CFF0-6D70A84D536B}",
     "ObjectPath": "play_footsteps",
     "ShortName": "play_footsteps",
     "Path": "Event/play_footsteps.bnk",
@@ -609,6 +609,6 @@
     ]
    }
   ],
-  "FileHash": "{E2C5D1EF-698E-A7FC-175E-15BBDA7F7B7E}"
+  "FileHash": "{765251C6-9A5E-19C4-AE91-ADE3617DDF00}"
  }
 }
