@@ -3,11 +3,11 @@
 	<Switches>
 		<WorkUnit Name="Default Work Unit" ID="{4F6A24AB-641B-47A7-B126-C4A5F6ACC989}" PersistMode="Standalone">
 			<ChildrenList>
-				<SwitchGroup Name="footsteps" ID="{CFFACC4B-B5E1-4FE1-8A45-488F870B73DC}">
+				<SwitchGroup Name="Surface" ID="{0D215096-5D0C-4B5B-90DC-01E79A920F24}">
 					<ChildrenList>
-						<Switch Name="Grass" ID="{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}"/>
-						<Switch Name="Concrete" ID="{AF8D7814-22AD-4830-9067-2C0CEB49B778}"/>
-						<Switch Name="Sand" ID="{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"/>
+						<Switch Name="Concrete" ID="{4A24745B-5E6A-4EFF-84AF-4C7298DF707F}"/>
+						<Switch Name="Grass" ID="{BAEB9BC4-5431-4650-AD04-3BCBCFEA8ED0}"/>
+						<Switch Name="Sand" ID="{0A5FFDD6-A550-4102-9D89-DEC95D22B9A8}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

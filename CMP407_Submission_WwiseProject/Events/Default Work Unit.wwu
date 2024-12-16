@@ -3,46 +3,45 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{CD7B232A-46FA-4396-B6A9-89FEADED5721}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Ambience" ID="{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}">
+				<Event Name="Footsteps" ID="{65AB5D05-79DF-4C92-870E-D5073F8F25FA}">
 					<ChildrenList>
-						<Action Name="" ID="{767C56AD-C075-4733-9A87-A5727FFEBFB1}" ShortID="1024244937">
+						<Action Name="" ID="{8336FDD3-EB88-415C-8F55-C7C6CB071C70}" ShortID="895607992">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="ambience_wind" ID="{DE7FEE6C-02B2-4FB3-995D-8FF7876752AB}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+									<ObjectRef Name="Footsteps" ID="{FF07B805-95A7-4E8C-AA3C-FB4A2B6C48B7}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Set_Switch_Concrete" ID="{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}"/>
-				<Event Name="play_footsteps" ID="{22E037EB-47E8-4376-8B05-BC361463D4C4}">
+				<Event Name="Blaster" ID="{922B0874-F739-47E4-BC5B-5E8157B29C86}">
 					<ChildrenList>
-						<Action Name="" ID="{06BA9F9D-8E08-4348-846C-D960210FD606}" ShortID="89385278">
+						<Action Name="" ID="{0AED0405-AB14-4AB9-AEAF-BF0907DDBBF6}" ShortID="1037275231">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FootstepsPlayer" ID="{CED5A1B8-5A77-4480-AFA1-C6A59EAD288A}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+									<ObjectRef Name="blaster_real" ID="{658A407B-B7F0-448C-95F6-E282908CADC9}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_blaster" ID="{2247547C-B405-4A02-9263-5152FF0E8015}">
+				<Event Name="EnemyHurt" ID="{E516AC36-AA2C-448B-888A-42334326CB45}">
 					<ChildrenList>
-						<Action Name="" ID="{F1138E47-C7C6-4F96-B45A-5533ED756229}" ShortID="444212600">
+						<Action Name="" ID="{B4D536A0-BA56-4935-8601-9F61E24595B5}" ShortID="398892008">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="blaster_real" ID="{91E9DC1E-3238-4E8B-8298-718E2B498F3A}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+									<ObjectRef Name="SFX_Hurt" ID="{235BE81C-EAE8-4505-9256-8C55457CCBA8}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="play_hurt" ID="{BDC9D7AE-2155-4612-8D6F-6003B57116F3}">
+				<Event Name="Gramophone" ID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}">
 					<ChildrenList>
-						<Action Name="" ID="{A9D5883E-7931-49CF-9852-C56576C5EECB}" ShortID="690716236">
+						<Action Name="" ID="{2E7B4C97-AE14-420D-BFC7-13BA9523F8F5}" ShortID="92657865">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="SFX_Hurt" ID="{A87BB6F3-934C-445A-940D-F5CF0D8072B3}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
+									<ObjectRef Name="inside of the concrete palace" ID="{493BF230-E30F-4721-84D7-D0346CBBF3B7}" WorkUnitID="{ECD78094-C9D9-4614-A7D6-0959060891FF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

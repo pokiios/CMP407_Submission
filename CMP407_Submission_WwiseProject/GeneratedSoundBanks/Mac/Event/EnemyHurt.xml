@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="208556064" Type="Event" GUID="{E516AC36-AA2C-448B-888A-42334326CB45}" Language="SFX" Hash="{4BF47701-BF35-64BB-F1F6-704B85B0722D}">
+			<ObjectPath>EnemyHurt</ObjectPath>
+			<ShortName>EnemyHurt</ShortName>
+			<Path>Event/EnemyHurt.bnk</Path>
+			<Media>
+				<File Id="573434311" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>Audio\SFX\SFX_Hurt.wav</ShortName>
+					<Path>Media/573434311.wem</Path>
+					<CachePath>SFX/Audio/SFX/SFX_Hurt_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="208556064" Name="EnemyHurt" ObjectPath="\Events\Default Work Unit\EnemyHurt" GUID="{E516AC36-AA2C-448B-888A-42334326CB45}" DurationType="OneShot" DurationMin="0.5150429" DurationMax="0.5781162">
+					<MediaRefs>
+						<MediaRef Id="573434311"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{BDB4590A-10A8-A2A3-3761-32B393B4D6DB}</FileHash>
+</SoundBanksInfo>

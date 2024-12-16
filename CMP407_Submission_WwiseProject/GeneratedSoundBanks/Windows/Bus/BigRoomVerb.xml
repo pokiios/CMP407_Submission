@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="2238315735" Type="Bus" GUID="{A06710C1-8C07-405E-94D1-258A0C0B403A}" Language="SFX" Hash="{FBA89F2F-755C-ED2B-60BA-BD7F61907772}">
+			<ObjectPath>BigRoomVerb</ObjectPath>
+			<ShortName>BigRoomVerb</ShortName>
+			<Path>Bus/BigRoomVerb.bnk</Path>
+			<Plugins>
+				<ShareSets>
+					<Plugin Id="602546716" Name="Room_Large" ObjectPath="\Effects\Factory Effects\RoomVerb\Rooms\Room_Large" GUID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" LibName="Wwise RoomVerb" LibId="7733251"/>
+				</ShareSets>
+			</Plugins>
+			<AuxBusses>
+				<AuxBus Id="2238315735" Name="BigRoomVerb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BigRoomVerb" GUID="{A06710C1-8C07-405E-94D1-258A0C0B403A}">
+					<PluginRefs>
+						<ShareSets>
+							<PluginRef Id="602546716"/>
+						</ShareSets>
+					</PluginRefs>
+				</AuxBus>
+			</AuxBusses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{5D89A7B7-C57E-519B-501A-87AC2EF57439}</FileHash>
+</SoundBanksInfo>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1EFB3F60-9A80-7BD0-C726-07851214D00B}",
+    "Hash": "{B98B9C26-6D7D-7530-95F8-E3B7DB1B2E0C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -54,9 +54,9 @@
     ],
     "AuxBusses": [
      {
-      "Id": "2393427999",
-      "Name": "BigRoom_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoom_Reverb",
+      "Id": "2238315735",
+      "Name": "BigRoomVerb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoomVerb",
       "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
       "PluginRefs": {
        "ShareSets": [
@@ -69,34 +69,34 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "2385628198",
-      "Name": "footsteps",
-      "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
-      "GUID": "{CFFACC4B-B5E1-4FE1-8A45-488F870B73DC}",
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{0D215096-5D0C-4B5B-90DC-01E79A920F24}",
       "Switches": [
        {
         "Id": "803837735",
         "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Sand",
-        "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Sand",
+        "GUID": "{0A5FFDD6-A550-4102-9D89-DEC95D22B9A8}"
        },
        {
         "Id": "841620460",
         "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Concrete",
-        "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{4A24745B-5E6A-4EFF-84AF-4C7298DF707F}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Grass",
-        "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{BAEB9BC4-5431-4650-AD04-3BCBCFEA8ED0}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{A975319E-D7BC-8FAD-6F2F-13D5732027AA}"
+  "FileHash": "{C9F0988D-7662-E11B-85C8-F824FABF8A60}"
  }
 }

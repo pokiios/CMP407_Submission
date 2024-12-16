@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "868398948",
+    "Type": "Event",
+    "GUID": "{922B0874-F739-47E4-BC5B-5E8157B29C86}",
+    "Language": "SFX",
+    "Hash": "{0A61B963-954F-0D81-751D-BF3F3C5FB5DB}",
+    "ObjectPath": "Blaster",
+    "ShortName": "Blaster",
+    "Path": "Event/Blaster.bnk",
+    "Media": [
+     {
+      "Id": "366637021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "SFX\\blaster_real.wav",
+      "Path": "Media/366637021.wem",
+      "CachePath": "SFX/SFX/blaster_real_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "868398948",
+      "Name": "Blaster",
+      "ObjectPath": "\\Events\\Default Work Unit\\Blaster",
+      "GUID": "{922B0874-F739-47E4-BC5B-5E8157B29C86}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.3545125",
+      "DurationMax": "0.4215888",
+      "MediaRefs": [
+       {
+        "Id": "366637021"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{411BF1AE-5D85-7BF4-01FF-196BF3CB5C0E}"
+ }
+}

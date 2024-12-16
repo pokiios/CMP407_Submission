@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "2238315735",
+    "Type": "Bus",
+    "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
+    "Language": "SFX",
+    "Hash": "{FBA89F2F-755C-ED2B-60BA-BD7F61907772}",
+    "ObjectPath": "BigRoomVerb",
+    "ShortName": "BigRoomVerb",
+    "Path": "Bus/BigRoomVerb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "2238315735",
+      "Name": "BigRoomVerb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoomVerb",
+      "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "602546716"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C239F675-9E40-35C1-E999-D0C03BF5DC5B}"
+ }
+}

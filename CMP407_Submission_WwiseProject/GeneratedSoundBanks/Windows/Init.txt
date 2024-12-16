@@ -2,7 +2,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	2393427999	BigRoom_Reverb			\Default Work Unit\Master Audio Bus\BigRoom_Reverb	
+	2238315735	BigRoomVerb			\Default Work Unit\Master Audio Bus\BigRoomVerb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	602546716	Room_Large	Wwise RoomVerb			

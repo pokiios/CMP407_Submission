@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3151110061",
+    "Type": "Event",
+    "GUID": "{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}",
+    "Language": "SFX",
+    "Hash": "{D6927CDC-9759-E855-FA35-4A118483C544}",
+    "ObjectPath": "Gramophone",
+    "ShortName": "Gramophone",
+    "Path": "Event/Gramophone.bnk",
+    "Media": [
+     {
+      "Id": "747464560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "inside of the concrete palace.wav",
+      "Path": "Media/747464560.wem",
+      "CachePath": "SFX/inside of the concrete palace_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3151110061",
+      "Name": "Gramophone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gramophone",
+      "GUID": "{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}",
+      "MaxAttenuation": "4000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "747464560"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B4F3A783-EE5E-C8C3-2E8B-7C35CCE45B7C}"
+ }
+}

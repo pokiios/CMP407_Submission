@@ -14,72 +14,74 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
-    "Id": "85412153",
+    "Id": "208556064",
     "Type": "Event",
-    "GUID": "{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}",
+    "GUID": "{E516AC36-AA2C-448B-888A-42334326CB45}",
     "Language": "SFX",
-    "Hash": "{186D3788-0F63-8974-742C-DB17DB459B22}",
-    "ObjectPath": "Ambience",
-    "ShortName": "Ambience",
-    "Path": "Event/Ambience.bnk",
+    "Hash": "{4BF47701-BF35-64BB-F1F6-704B85B0722D}",
+    "ObjectPath": "EnemyHurt",
+    "ShortName": "EnemyHurt",
+    "Path": "Event/EnemyHurt.bnk",
     "Media": [
      {
-      "Id": "442361530",
+      "Id": "573434311",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "SFX\\ambience_wind.wav",
-      "Path": "Media/442361530.wem",
-      "CachePath": "SFX/SFX/ambience_wind_FBC78EF0.wem"
+      "ShortName": "Audio\\SFX\\SFX_Hurt.wav",
+      "Path": "Media/573434311.wem",
+      "CachePath": "SFX/Audio/SFX/SFX_Hurt_818F3B66.wem"
      }
     ],
     "Events": [
      {
-      "Id": "85412153",
-      "Name": "Ambience",
-      "ObjectPath": "\\Events\\Default Work Unit\\Ambience",
-      "GUID": "{D79EC016-68AB-46E7-B78B-69B8C8AC5C9E}",
-      "DurationType": "Infinite",
+      "Id": "208556064",
+      "Name": "EnemyHurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\EnemyHurt",
+      "GUID": "{E516AC36-AA2C-448B-888A-42334326CB45}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5150429",
+      "DurationMax": "0.5781162",
       "MediaRefs": [
        {
-        "Id": "442361530"
+        "Id": "573434311"
        }
       ]
      }
     ]
    },
    {
-    "Id": "377569945",
+    "Id": "868398948",
     "Type": "Event",
-    "GUID": "{2247547C-B405-4A02-9263-5152FF0E8015}",
+    "GUID": "{922B0874-F739-47E4-BC5B-5E8157B29C86}",
     "Language": "SFX",
-    "Hash": "{B8B1D41B-FAF3-784B-D73D-6505D3E1CAED}",
-    "ObjectPath": "play_blaster",
-    "ShortName": "play_blaster",
-    "Path": "Event/play_blaster.bnk",
+    "Hash": "{0A61B963-954F-0D81-751D-BF3F3C5FB5DB}",
+    "ObjectPath": "Blaster",
+    "ShortName": "Blaster",
+    "Path": "Event/Blaster.bnk",
     "Media": [
      {
-      "Id": "866406127",
+      "Id": "366637021",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Loose",
-      "ShortName": "Audio\\SFX\\blaster_real.wav",
-      "Path": "Media/866406127.wem",
-      "CachePath": "SFX/Audio/SFX/blaster_real_818F3B66.wem"
+      "ShortName": "SFX\\blaster_real.wav",
+      "Path": "Media/366637021.wem",
+      "CachePath": "SFX/SFX/blaster_real_818F3B66.wem"
      }
     ],
     "Events": [
      {
-      "Id": "377569945",
-      "Name": "play_blaster",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_blaster",
-      "GUID": "{2247547C-B405-4A02-9263-5152FF0E8015}",
+      "Id": "868398948",
+      "Name": "Blaster",
+      "ObjectPath": "\\Events\\Default Work Unit\\Blaster",
+      "GUID": "{922B0874-F739-47E4-BC5B-5E8157B29C86}",
       "DurationType": "OneShot",
-      "DurationMin": "0.21697116",
-      "DurationMax": "0.51604724",
+      "DurationMin": "0.3545125",
+      "DurationMax": "0.4215888",
       "MediaRefs": [
        {
-        "Id": "866406127"
+        "Id": "366637021"
        }
       ]
      }
@@ -90,7 +92,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{1EFB3F60-9A80-7BD0-C726-07851214D00B}",
+    "Hash": "{B98B9C26-6D7D-7530-95F8-E3B7DB1B2E0C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -134,9 +136,9 @@
     ],
     "AuxBusses": [
      {
-      "Id": "2393427999",
-      "Name": "BigRoom_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoom_Reverb",
+      "Id": "2238315735",
+      "Name": "BigRoomVerb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoomVerb",
       "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
       "PluginRefs": {
        "ShareSets": [
@@ -149,42 +151,42 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "2385628198",
-      "Name": "footsteps",
-      "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
-      "GUID": "{CFFACC4B-B5E1-4FE1-8A45-488F870B73DC}",
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{0D215096-5D0C-4B5B-90DC-01E79A920F24}",
       "Switches": [
        {
         "Id": "803837735",
         "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Sand",
-        "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Sand",
+        "GUID": "{0A5FFDD6-A550-4102-9D89-DEC95D22B9A8}"
        },
        {
         "Id": "841620460",
         "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Concrete",
-        "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{4A24745B-5E6A-4EFF-84AF-4C7298DF707F}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Grass",
-        "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{BAEB9BC4-5431-4650-AD04-3BCBCFEA8ED0}"
        }
       ]
      }
     ]
    },
    {
-    "Id": "2393427999",
+    "Id": "2238315735",
     "Type": "Bus",
     "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
     "Language": "SFX",
-    "Hash": "{C0B81A77-2FA4-9C22-D935-FF75E54749FB}",
-    "ObjectPath": "BigRoom_Reverb",
-    "ShortName": "BigRoom_Reverb",
-    "Path": "Bus/BigRoom_Reverb.bnk",
+    "Hash": "{FBA89F2F-755C-ED2B-60BA-BD7F61907772}",
+    "ObjectPath": "BigRoomVerb",
+    "ShortName": "BigRoomVerb",
+    "Path": "Bus/BigRoomVerb.bnk",
     "Plugins": {
      "ShareSets": [
       {
@@ -199,9 +201,9 @@
     },
     "AuxBusses": [
      {
-      "Id": "2393427999",
-      "Name": "BigRoom_Reverb",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoom_Reverb",
+      "Id": "2238315735",
+      "Name": "BigRoomVerb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BigRoomVerb",
       "GUID": "{A06710C1-8C07-405E-94D1-258A0C0B403A}",
       "PluginRefs": {
        "ShareSets": [
@@ -214,73 +216,14 @@
     ]
    },
    {
-    "Id": "2955259529",
+    "Id": "2385628198",
     "Type": "Event",
-    "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
+    "GUID": "{65AB5D05-79DF-4C92-870E-D5073F8F25FA}",
     "Language": "SFX",
-    "Hash": "{DF2099BE-3773-9891-5B6B-4CB18276ED7E}",
-    "ObjectPath": "play_hurt",
-    "ShortName": "play_hurt",
-    "Path": "Event/play_hurt.bnk",
-    "Media": [
-     {
-      "Id": "591014924",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Loose",
-      "ShortName": "SFX_Hurt.wav",
-      "Path": "Media/591014924.wem",
-      "CachePath": "SFX/SFX_Hurt_818F3B66.wem"
-     }
-    ],
-    "Events": [
-     {
-      "Id": "2955259529",
-      "Name": "play_hurt",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_hurt",
-      "GUID": "{BDC9D7AE-2155-4612-8D6F-6003B57116F3}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.30624634",
-      "DurationMax": "0.7283807",
-      "MediaRefs": [
-       {
-        "Id": "591014924"
-       }
-      ]
-     }
-    ]
-   },
-   {
-    "Id": "3543386712",
-    "Type": "Event",
-    "GUID": "{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}",
-    "Language": "SFX",
-    "Hash": "{77109666-F92A-B898-65F8-427E3AD8DABB}",
-    "ObjectPath": "Set_Switch_Concrete",
-    "ShortName": "Set_Switch_Concrete",
-    "Path": "Event/Set_Switch_Concrete.bnk",
-    "Events": [
-     {
-      "Id": "3543386712",
-      "Name": "Set_Switch_Concrete",
-      "ObjectPath": "\\Events\\Default Work Unit\\Set_Switch_Concrete",
-      "GUID": "{31C7A8F9-D21C-4BB0-A8D9-885E88D87B81}",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     }
-    ]
-   },
-   {
-    "Id": "3854155799",
-    "Type": "Event",
-    "GUID": "{22E037EB-47E8-4376-8B05-BC361463D4C4}",
-    "Language": "SFX",
-    "Hash": "{8BE2A759-37A0-9B08-CFF0-6D70A84D536B}",
-    "ObjectPath": "play_footsteps",
-    "ShortName": "play_footsteps",
-    "Path": "Event/play_footsteps.bnk",
+    "Hash": "{E138ECD2-970C-99E8-7DB2-FAAF0B326818}",
+    "ObjectPath": "Footsteps",
+    "ShortName": "Footsteps",
+    "Path": "Event/Footsteps.bnk",
     "Media": [
      {
       "Id": "9168500",
@@ -474,20 +417,20 @@
     ],
     "Events": [
      {
-      "Id": "3854155799",
-      "Name": "play_footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\play_footsteps",
-      "GUID": "{22E037EB-47E8-4376-8B05-BC361463D4C4}",
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Footsteps",
+      "GUID": "{65AB5D05-79DF-4C92-870E-D5073F8F25FA}",
       "DurationType": "OneShot",
-      "DurationMin": "0.19737904",
-      "DurationMax": "0.72614074",
+      "DurationMin": "0.24868198",
+      "DurationMax": "0.5763383",
       "SwitchContainers": [
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "2385628198",
+         "GroupId": "1834394558",
          "Id": "841620460",
-         "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+         "GUID": "{4A24745B-5E6A-4EFF-84AF-4C7298DF707F}"
         },
         "MediaRefs": [
          {
@@ -513,40 +456,9 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "2385628198",
-         "Id": "803837735",
-         "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "304597898"
-         },
-         {
-          "Id": "324753255"
-         },
-         {
-          "Id": "440693136"
-         },
-         {
-          "Id": "645087973"
-         },
-         {
-          "Id": "711105507"
-         },
-         {
-          "Id": "895041412"
-         },
-         {
-          "Id": "950485672"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "2385628198",
+         "GroupId": "1834394558",
          "Id": "4248645337",
-         "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}",
+         "GUID": "{BAEB9BC4-5431-4650-AD04-3BCBCFEA8ED0}",
          "Default": "true"
         },
         "MediaRefs": [
@@ -575,40 +487,107 @@
           "Id": "1049125180"
          }
         ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1834394558",
+         "Id": "803837735",
+         "GUID": "{0A5FFDD6-A550-4102-9D89-DEC95D22B9A8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "304597898"
+         },
+         {
+          "Id": "324753255"
+         },
+         {
+          "Id": "440693136"
+         },
+         {
+          "Id": "645087973"
+         },
+         {
+          "Id": "711105507"
+         },
+         {
+          "Id": "895041412"
+         },
+         {
+          "Id": "950485672"
+         }
+        ]
        }
       ]
      }
     ],
     "SwitchGroups": [
      {
-      "Id": "2385628198",
-      "Name": "footsteps",
-      "ObjectPath": "\\Switches\\Default Work Unit\\footsteps",
-      "GUID": "{CFFACC4B-B5E1-4FE1-8A45-488F870B73DC}",
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{0D215096-5D0C-4B5B-90DC-01E79A920F24}",
       "Switches": [
        {
         "Id": "803837735",
         "Name": "Sand",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Sand",
-        "GUID": "{B43D2C63-7F24-4F8E-A265-DFE15310B9C2}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Sand",
+        "GUID": "{0A5FFDD6-A550-4102-9D89-DEC95D22B9A8}"
        },
        {
         "Id": "841620460",
         "Name": "Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Concrete",
-        "GUID": "{AF8D7814-22AD-4830-9067-2C0CEB49B778}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Concrete",
+        "GUID": "{4A24745B-5E6A-4EFF-84AF-4C7298DF707F}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\footsteps\\Grass",
-        "GUID": "{52EFC298-20FF-4BD1-98F7-B9D97A4AE6A6}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{BAEB9BC4-5431-4650-AD04-3BCBCFEA8ED0}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3151110061",
+    "Type": "Event",
+    "GUID": "{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}",
+    "Language": "SFX",
+    "Hash": "{D6927CDC-9759-E855-FA35-4A118483C544}",
+    "ObjectPath": "Gramophone",
+    "ShortName": "Gramophone",
+    "Path": "Event/Gramophone.bnk",
+    "Media": [
+     {
+      "Id": "747464560",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "inside of the concrete palace.wav",
+      "Path": "Media/747464560.wem",
+      "CachePath": "SFX/inside of the concrete palace_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3151110061",
+      "Name": "Gramophone",
+      "ObjectPath": "\\Events\\Default Work Unit\\Gramophone",
+      "GUID": "{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}",
+      "MaxAttenuation": "4000",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "747464560"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{765251C6-9A5E-19C4-AE91-ADE3617DDF00}"
+  "FileHash": "{334C1592-AF27-2746-3129-68990D4230DC}"
  }
 }

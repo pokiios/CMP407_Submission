@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3151110061" Type="Event" GUID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}" Language="SFX" Hash="{D6927CDC-9759-E855-FA35-4A118483C544}">
+			<ObjectPath>Gramophone</ObjectPath>
+			<ShortName>Gramophone</ShortName>
+			<Path>Event/Gramophone.bnk</Path>
+			<Media>
+				<File Id="747464560" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>inside of the concrete palace.wav</ShortName>
+					<Path>Media/747464560.wem</Path>
+					<CachePath>SFX/inside of the concrete palace_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3151110061" Name="Gramophone" ObjectPath="\Events\Default Work Unit\Gramophone" GUID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}" MaxAttenuation="4000" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="747464560"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{B09B74A7-956B-9F9D-7BE5-F50A8AD7126E}</FileHash>
+</SoundBanksInfo>

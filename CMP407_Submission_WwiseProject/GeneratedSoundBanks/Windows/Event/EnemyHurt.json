@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "208556064",
+    "Type": "Event",
+    "GUID": "{E516AC36-AA2C-448B-888A-42334326CB45}",
+    "Language": "SFX",
+    "Hash": "{4BF47701-BF35-64BB-F1F6-704B85B0722D}",
+    "ObjectPath": "EnemyHurt",
+    "ShortName": "EnemyHurt",
+    "Path": "Event/EnemyHurt.bnk",
+    "Media": [
+     {
+      "Id": "573434311",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Audio\\SFX\\SFX_Hurt.wav",
+      "Path": "Media/573434311.wem",
+      "CachePath": "SFX/Audio/SFX/SFX_Hurt_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "208556064",
+      "Name": "EnemyHurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\EnemyHurt",
+      "GUID": "{E516AC36-AA2C-448B-888A-42334326CB45}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5150429",
+      "DurationMax": "0.5781162",
+      "MediaRefs": [
+       {
+        "Id": "573434311"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{33457ADE-5E36-A526-C6A5-1102C0FD2556}"
+ }
+}

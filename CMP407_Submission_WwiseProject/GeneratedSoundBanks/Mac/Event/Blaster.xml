@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="868398948" Type="Event" GUID="{922B0874-F739-47E4-BC5B-5E8157B29C86}" Language="SFX" Hash="{0A61B963-954F-0D81-751D-BF3F3C5FB5DB}">
+			<ObjectPath>Blaster</ObjectPath>
+			<ShortName>Blaster</ShortName>
+			<Path>Event/Blaster.bnk</Path>
+			<Media>
+				<File Id="366637021" Language="SFX" Streaming="false" Location="Loose">
+					<ShortName>SFX\blaster_real.wav</ShortName>
+					<Path>Media/366637021.wem</Path>
+					<CachePath>SFX/SFX/blaster_real_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="868398948" Name="Blaster" ObjectPath="\Events\Default Work Unit\Blaster" GUID="{922B0874-F739-47E4-BC5B-5E8157B29C86}" DurationType="OneShot" DurationMin="0.3545125" DurationMax="0.4215888">
+					<MediaRefs>
+						<MediaRef Id="366637021"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{FBBA3FCC-6CF2-91DC-F5BB-B60C7D0444C8}</FileHash>
+</SoundBanksInfo>

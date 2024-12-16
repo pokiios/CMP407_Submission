@@ -10,7 +10,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AuxBus Name="BigRoom_Reverb" ID="{A06710C1-8C07-405E-94D1-258A0C0B403A}">
+						<AuxBus Name="BigRoomVerb" ID="{A06710C1-8C07-405E-94D1-258A0C0B403A}">
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
