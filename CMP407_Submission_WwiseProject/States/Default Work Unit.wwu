@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{810686D7-1726-4701-92D4-0C1763FCB52C}" SchemaVersion="119">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{810686D7-1726-4701-92D4-0C1763FCB52C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{810686D7-1726-4701-92D4-0C1763FCB52C}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Health" ID="{65DBB12E-70FD-4A4F-867A-F276E57D3F9E}">
+					<ChildrenList>
+						<State Name="None" ID="{DDBCC749-EEB2-4930-BB6C-F8C60D45BA01}"/>
+						<State Name="Healthy" ID="{50E9D677-AE44-4874-B118-3BFE31A52C22}"/>
+						<State Name="Low" ID="{6D0F6BEF-DB12-450F-8BDE-ED639EB66959}"/>
+						<State Name="Critical" ID="{FEB5ADE1-DF06-493C-890B-E14DF1F7221B}"/>
+						<State Name="Dead" ID="{A3AC6E94-43AC-44C7-A796-3CD9A60686FC}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Range" ID="{59550C27-33CB-4DC7-9AEE-BDD8737FD316}">
+					<ChildrenList>
+						<State Name="None" ID="{68A1B288-64FA-4BD1-AEE6-E43D60D92E75}"/>
+						<State Name="Melee" ID="{F02EA3A2-79A8-4133-9036-D83B4D542D73}"/>
+						<State Name="Ranged" ID="{F10B00C3-F645-4418-9055-631E07DF50B3}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

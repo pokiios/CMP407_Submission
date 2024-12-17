@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}",
     "Language": "SFX",
-    "Hash": "{D6927CDC-9759-E855-FA35-4A118483C544}",
+    "Hash": "{1755E974-C33B-3D51-AFFD-7E16EE359D2D}",
     "ObjectPath": "Gramophone",
     "ShortName": "Gramophone",
     "Path": "Event/Gramophone.bnk",
@@ -42,6 +42,6 @@
     ]
    }
   ],
-  "FileHash": "{B4F3A783-EE5E-C8C3-2E8B-7C35CCE45B7C}"
+  "FileHash": "{1CAA7E3F-471B-45E2-76C5-25906C63041F}"
  }
 }

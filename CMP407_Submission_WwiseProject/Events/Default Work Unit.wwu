@@ -47,6 +47,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EnemyMusic" ID="{850BB5B3-BF93-40CD-BD5A-D75477416CE3}">
+					<ChildrenList>
+						<Action Name="" ID="{DD636A06-0D20-40B9-A195-6B294FD65F2E}" ShortID="331189571">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat" ID="{1CE5C87E-0F90-4D1D-80ED-AFA344FF7557}" WorkUnitID="{D9DC08E1-DA2A-42B6-A2F7-7E3EE88A7E33}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

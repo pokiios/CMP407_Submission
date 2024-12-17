@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3151110061" Type="Event" GUID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}" Language="SFX" Hash="{D6927CDC-9759-E855-FA35-4A118483C544}">
+		<SoundBank Id="3151110061" Type="Event" GUID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}" Language="SFX" Hash="{1755E974-C33B-3D51-AFFD-7E16EE359D2D}">
 			<ObjectPath>Gramophone</ObjectPath>
 			<ShortName>Gramophone</ShortName>
 			<Path>Event/Gramophone.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B09B74A7-956B-9F9D-7BE5-F50A8AD7126E}</FileHash>
+	<FileHash>{07B69773-A0EB-75D5-35C8-0B401BA5E076}</FileHash>
 </SoundBanksInfo>

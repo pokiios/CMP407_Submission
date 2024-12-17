@@ -92,7 +92,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B98B9C26-6D7D-7530-95F8-E3B7DB1B2E0C}",
+    "Hash": "{A7FC0C36-9C10-94E8-CF28-79BC97E89705}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -149,6 +149,72 @@
       }
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1911674748",
+      "Name": "Range",
+      "ObjectPath": "\\States\\Default Work Unit\\Range",
+      "GUID": "{59550C27-33CB-4DC7-9AEE-BDD8737FD316}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Range\\None",
+        "GUID": "{68A1B288-64FA-4BD1-AEE6-E43D60D92E75}"
+       },
+       {
+        "Id": "3208241451",
+        "Name": "Melee",
+        "ObjectPath": "\\States\\Default Work Unit\\Range\\Melee",
+        "GUID": "{F02EA3A2-79A8-4133-9036-D83B4D542D73}"
+       },
+       {
+        "Id": "3686152272",
+        "Name": "Ranged",
+        "ObjectPath": "\\States\\Default Work Unit\\Range\\Ranged",
+        "GUID": "{F10B00C3-F645-4418-9055-631E07DF50B3}"
+       }
+      ]
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\States\\Default Work Unit\\Health",
+      "GUID": "{65DBB12E-70FD-4A4F-867A-F276E57D3F9E}",
+      "States": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Low",
+        "GUID": "{6D0F6BEF-DB12-450F-8BDE-ED639EB66959}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\None",
+        "GUID": "{DDBCC749-EEB2-4930-BB6C-F8C60D45BA01}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Dead",
+        "GUID": "{A3AC6E94-43AC-44C7-A796-3CD9A60686FC}"
+       },
+       {
+        "Id": "2534871658",
+        "Name": "Critical",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Critical",
+        "GUID": "{FEB5ADE1-DF06-493C-890B-E14DF1F7221B}"
+       },
+       {
+        "Id": "2874639328",
+        "Name": "Healthy",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Healthy",
+        "GUID": "{50E9D677-AE44-4874-B118-3BFE31A52C22}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "1834394558",
@@ -173,6 +239,184 @@
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
         "GUID": "{BAEB9BC4-5431-4650-AD04-3BCBCFEA8ED0}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "1979283156",
+    "Type": "Event",
+    "GUID": "{850BB5B3-BF93-40CD-BD5A-D75477416CE3}",
+    "Language": "SFX",
+    "Hash": "{95A47139-7113-210C-5CBB-D961BAC859DB}",
+    "ObjectPath": "EnemyMusic",
+    "ShortName": "EnemyMusic",
+    "Path": "Event/EnemyMusic.bnk",
+    "Media": [
+     {
+      "Id": "658555875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "healthy ranged alt.wav",
+      "Path": "Media/658555875.wem",
+      "CachePath": "SFX/healthy ranged alt_FBC78EF0.wem"
+     },
+     {
+      "Id": "686120050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "healthy ranged.wav",
+      "Path": "Media/686120050.wem",
+      "CachePath": "SFX/healthy ranged_FBC78EF0.wem"
+     },
+     {
+      "Id": "896786640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "healthy melee.wav",
+      "Path": "Media/896786640.wem",
+      "CachePath": "SFX/healthy melee_FBC78EF0.wem"
+     },
+     {
+      "Id": "1059463469",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "healthy melee alt.wav",
+      "Path": "Media/1059463469.wem",
+      "CachePath": "SFX/healthy melee alt_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1979283156",
+      "Name": "EnemyMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\EnemyMusic",
+      "GUID": "{850BB5B3-BF93-40CD-BD5A-D75477416CE3}",
+      "MaxAttenuation": "6000",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3677180323",
+         "Id": "2874639328",
+         "GUID": "{50E9D677-AE44-4874-B118-3BFE31A52C22}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "1911674748",
+           "Id": "3208241451",
+           "GUID": "{F02EA3A2-79A8-4133-9036-D83B4D542D73}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "896786640"
+           },
+           {
+            "Id": "1059463469"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "3677180323",
+         "Id": "2874639328",
+         "GUID": "{50E9D677-AE44-4874-B118-3BFE31A52C22}"
+        },
+        "Children": [
+         {
+          "SwitchValue": {
+           "GroupType": "State",
+           "GroupId": "1911674748",
+           "Id": "3686152272",
+           "GUID": "{F10B00C3-F645-4418-9055-631E07DF50B3}"
+          },
+          "MediaRefs": [
+           {
+            "Id": "658555875"
+           },
+           {
+            "Id": "686120050"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1911674748",
+      "Name": "Range",
+      "ObjectPath": "\\States\\Default Work Unit\\Range",
+      "GUID": "{59550C27-33CB-4DC7-9AEE-BDD8737FD316}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Range\\None",
+        "GUID": "{68A1B288-64FA-4BD1-AEE6-E43D60D92E75}"
+       },
+       {
+        "Id": "3208241451",
+        "Name": "Melee",
+        "ObjectPath": "\\States\\Default Work Unit\\Range\\Melee",
+        "GUID": "{F02EA3A2-79A8-4133-9036-D83B4D542D73}"
+       },
+       {
+        "Id": "3686152272",
+        "Name": "Ranged",
+        "ObjectPath": "\\States\\Default Work Unit\\Range\\Ranged",
+        "GUID": "{F10B00C3-F645-4418-9055-631E07DF50B3}"
+       }
+      ]
+     },
+     {
+      "Id": "3677180323",
+      "Name": "Health",
+      "ObjectPath": "\\States\\Default Work Unit\\Health",
+      "GUID": "{65DBB12E-70FD-4A4F-867A-F276E57D3F9E}",
+      "States": [
+       {
+        "Id": "545371365",
+        "Name": "Low",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Low",
+        "GUID": "{6D0F6BEF-DB12-450F-8BDE-ED639EB66959}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\None",
+        "GUID": "{DDBCC749-EEB2-4930-BB6C-F8C60D45BA01}"
+       },
+       {
+        "Id": "2044049779",
+        "Name": "Dead",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Dead",
+        "GUID": "{A3AC6E94-43AC-44C7-A796-3CD9A60686FC}"
+       },
+       {
+        "Id": "2534871658",
+        "Name": "Critical",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Critical",
+        "GUID": "{FEB5ADE1-DF06-493C-890B-E14DF1F7221B}"
+       },
+       {
+        "Id": "2874639328",
+        "Name": "Healthy",
+        "ObjectPath": "\\States\\Default Work Unit\\Health\\Healthy",
+        "GUID": "{50E9D677-AE44-4874-B118-3BFE31A52C22}"
        }
       ]
      }
@@ -556,7 +800,7 @@
     "Type": "Event",
     "GUID": "{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}",
     "Language": "SFX",
-    "Hash": "{D6927CDC-9759-E855-FA35-4A118483C544}",
+    "Hash": "{1755E974-C33B-3D51-AFFD-7E16EE359D2D}",
     "ObjectPath": "Gramophone",
     "ShortName": "Gramophone",
     "Path": "Event/Gramophone.bnk",
@@ -588,6 +832,6 @@
     ]
    }
   ],
-  "FileHash": "{334C1592-AF27-2746-3129-68990D4230DC}"
+  "FileHash": "{E4294AE7-9E8D-9862-618F-160ED320FAF2}"
  }
 }

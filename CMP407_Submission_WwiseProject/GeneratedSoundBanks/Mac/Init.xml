@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{B98B9C26-6D7D-7530-95F8-E3B7DB1B2E0C}">
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{A7FC0C36-9C10-94E8-CF28-79BC97E89705}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -26,6 +26,24 @@
 					</PluginRefs>
 				</AuxBus>
 			</AuxBusses>
+			<StateGroups>
+				<StateGroup Id="1911674748" Name="Range" ObjectPath="\States\Default Work Unit\Range" GUID="{59550C27-33CB-4DC7-9AEE-BDD8737FD316}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Range\None" GUID="{68A1B288-64FA-4BD1-AEE6-E43D60D92E75}"/>
+						<State Id="3208241451" Name="Melee" ObjectPath="\States\Default Work Unit\Range\Melee" GUID="{F02EA3A2-79A8-4133-9036-D83B4D542D73}"/>
+						<State Id="3686152272" Name="Ranged" ObjectPath="\States\Default Work Unit\Range\Ranged" GUID="{F10B00C3-F645-4418-9055-631E07DF50B3}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3677180323" Name="Health" ObjectPath="\States\Default Work Unit\Health" GUID="{65DBB12E-70FD-4A4F-867A-F276E57D3F9E}">
+					<States>
+						<State Id="545371365" Name="Low" ObjectPath="\States\Default Work Unit\Health\Low" GUID="{6D0F6BEF-DB12-450F-8BDE-ED639EB66959}"/>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Health\None" GUID="{DDBCC749-EEB2-4930-BB6C-F8C60D45BA01}"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Health\Dead" GUID="{A3AC6E94-43AC-44C7-A796-3CD9A60686FC}"/>
+						<State Id="2534871658" Name="Critical" ObjectPath="\States\Default Work Unit\Health\Critical" GUID="{FEB5ADE1-DF06-493C-890B-E14DF1F7221B}"/>
+						<State Id="2874639328" Name="Healthy" ObjectPath="\States\Default Work Unit\Health\Healthy" GUID="{50E9D677-AE44-4874-B118-3BFE31A52C22}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="1834394558" Name="Surface" ObjectPath="\Switches\Default Work Unit\Surface" GUID="{0D215096-5D0C-4B5B-90DC-01E79A920F24}">
 					<Switches>
@@ -37,5 +55,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{F4657C39-7631-BAF3-B8E6-5FF269641B14}</FileHash>
+	<FileHash>{3E2C7218-20CE-DCD3-A46A-F1F9EA1710F4}</FileHash>
 </SoundBanksInfo>

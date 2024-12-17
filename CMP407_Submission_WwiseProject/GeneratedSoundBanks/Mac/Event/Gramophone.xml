@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="3151110061" Type="Event" GUID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}" Language="SFX" Hash="{D6927CDC-9759-E855-FA35-4A118483C544}">
+		<SoundBank Id="3151110061" Type="Event" GUID="{F65D2856-7D6B-4FFD-9A90-A000ACDAA16B}" Language="SFX" Hash="{1755E974-C33B-3D51-AFFD-7E16EE359D2D}">
 			<ObjectPath>Gramophone</ObjectPath>
 			<ShortName>Gramophone</ShortName>
 			<Path>Event/Gramophone.bnk</Path>
@@ -21,5 +21,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{66D540B9-154D-76A7-8105-26C4A96D8FCA}</FileHash>
+	<FileHash>{250D5460-B10C-ADFE-C3F8-42134DE4C25E}</FileHash>
 </SoundBanksInfo>

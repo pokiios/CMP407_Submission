@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1979283156	EnemyMusic			\Default Work Unit\EnemyMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1911674748	Range			\Default Work Unit\Range	
+	3677180323	Health			\Default Work Unit\Health	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Range			
+	3208241451	Melee	Range			
+	3686152272	Ranged	Range			
+	545371365	Low	Health			
+	748895195	None	Health			
+	2044049779	Dead	Health			
+	2534871658	Critical	Health			
+	2874639328	Healthy	Health			
+
