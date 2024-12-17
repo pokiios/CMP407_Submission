@@ -129,7 +129,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
+							<ObjectRef Name="SFX" ID="{60A5F869-9CED-4BC3-B132-60F4A9AC2ADC}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A521DA00-3E8E-4FB7-A125-C88CB9D0AA14}"/>
@@ -887,7 +887,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
+							<ObjectRef Name="SFX" ID="{60A5F869-9CED-4BC3-B132-60F4A9AC2ADC}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A521DA00-3E8E-4FB7-A125-C88CB9D0AA14}"/>
@@ -972,7 +972,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
+							<ObjectRef Name="SFX" ID="{60A5F869-9CED-4BC3-B132-60F4A9AC2ADC}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A521DA00-3E8E-4FB7-A125-C88CB9D0AA14}"/>
@@ -1183,7 +1183,7 @@
 							</Custom>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
+							<ObjectRef Name="Music" ID="{7AB22D7A-A47A-469B-BC75-9DF049904417}" WorkUnitID="{23C5E9AA-8B07-450F-8B2C-23247E27A4CB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A521DA00-3E8E-4FB7-A125-C88CB9D0AA14}"/>
